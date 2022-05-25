@@ -22,8 +22,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: blue;
-    height: auto;
+    height: 89.5vh;
 }
 
 .place-card {
@@ -32,12 +31,14 @@
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     width: 500px;
+    color: #2B283A;
 
     img {
         height: 250px;
-        max-width: 150px;
+        max-width: 175px;
         border-radius: 7px;
         margin-right: 2rem;
+        object-fit: cover;
     }
 
     h4 {
@@ -45,7 +46,29 @@
     }
 
     p {
-        font-size: 14px;
+        font-size: 12px;
         margin: 7px 0;
+        letter-spacing: 0.5px;
+
+        span {
+            font-size: 10px;
+            text-decoration: underline;
+            color: #918E9B;
+            margin-left: 1.5rem;
+            letter-spacing: 1px;
+            text-transform: none;
+        }
+    }
+
+    .country {
+        font-size: 13px;
+        margin-left: 1rem;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    .date {
+        font-size: 14px;
+        font-weight: 700;
     }
 }
